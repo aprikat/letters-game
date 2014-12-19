@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue.otf');
+}
+body {
+    font-family: 'Bebas Neue';
+    font-size: 28pt;
+    color: white;
+    background-color: #240F3D;
+}
+
+#canvas {
+    width: 1000px;
+    height: 600px;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+    border: 3px solid;
+    border-color: white;
+    text-align: center;
+    font-size: 20pt;
+    padding-top: 8px;
+}
+
+#score-value {
+    font-size: 24pt;
+}
+
+.game-over {
+    z-index: 999;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 200px;
+    width: 50%;
+    background-color: #240F3D;
+    border: 3px solid;
+    border-color: white;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 0;
+    font-size: 36pt;
+}
+
+.letter {
+    display: inline-block;
+    position: absolute;
+}
